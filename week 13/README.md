@@ -53,15 +53,15 @@ alert(z);
 Ответ: 7
 ***
 4. Какими тремя способами можно подключить js?
-*В файле html прописать в теге. Например:
+* В файле html прописать в теге. Например:
 ```html
 <button onClick="alert('Hello!')"></button>
 ```
-*В файле html перед закрывающимся тегом body вставить ссылку на скрипт:
+* В файле html перед закрывающимся тегом body вставить ссылку на скрипт:
 ```html
 <script src="index.js"></script>
 ```
-*В файле html внутри head вставить тег script (как со style):
+* В файле html внутри head вставить тег script (как со style):
 ```html
 <head>
     <title>Document</title>
