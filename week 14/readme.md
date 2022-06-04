@@ -61,7 +61,7 @@ console.log(result);
 <html>
 
 <body>
-    <form name="search">
+    <form name="search" class="search">
         <label>Поиск:
             <input type="text" name="search">
         </label>
@@ -100,8 +100,27 @@ console.log(result);
 </html>
 ```
 1) Таблица с ```id="age-table"```
+```js
+let showAge = () => {
+    console.log(document.getElementById('age-table'));
+}
+
+showAge();
+```
 2) Все элементы ```label``` внутри этой таблицы(их три)
+```js
+let showLabel = () => {
+    console.log(document.getElementsByName('age'));
+}
+showLabel();
+```
 3) Форму ```form``` с именем ```name="search"
+```js
+let showForm = () => {
+    console.log(document.getElementsByClassName('search')); //я добавила в тег form класс search, можете подсказать, как обойтись без этого, но при этом не вызвать другой тег form
+}
+showForm();
+```
 ***
 8. Как сделать переход на другую страницу при клике на кнопку (без ```<a href=...>```, только средствами JavaScript)?
 ```html
@@ -115,6 +134,16 @@ function clickMe() {
 ```
 ***
 9. Как можно обнулить (очистить) значение внутри input?
+```html
+<input type="text" id="thisInput" onclick=clearInput()>
+<button>send</button>
+```
+```js
+function clearInput () {
+    document.getElementById('thisInput').value = '';
+}
+clearInput();
+```
 ***
 10. Как будет выглядеть ваша функция приветствия из прошлого домашнего задания, если ее переписать в стрелочном формате?
 ```js 
