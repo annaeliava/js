@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    margin: 60px;
+    background-color:beige;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#livingRoom,
+#kitchen,
+#bedroom,
+#bathroom {
+    width: 564px;
+    height: 564px;
+}
+
+.title {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
