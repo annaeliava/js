@@ -8,15 +8,42 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="calc" id="num">
         <form>
-            <input>
+            <input 
+                type="text" 
+                name="calculator" 
+                class="numberInput" 
+                id="left">
+            <input 
+                type="text" 
+                name="calculator" 
+                class="numberInput" 
+                id="right">
         </form>
+        <div></div>
     </div>
-    <div>
-        <form>
-            <input>
-        </form>
+    <div class="calc" id="func">
+        <button 
+            type="button" 
+            class="item" 
+            value="+" 
+            onclick="sum()">+</button>
+        <button 
+            type="button" 
+            class="item" 
+            value="-" 
+            onclick="minus()">-</button>
+        <button 
+            type="button" 
+            class="item" 
+            value="*" 
+            onclick="multiply()">&times;</button>
+        <button 
+            type="button" 
+            class="item" 
+            value="/" 
+            onclick="divide()">&divide;</button>
     </div>
 
     <script src="/week 13/js/calculator2.0.js"></script>
