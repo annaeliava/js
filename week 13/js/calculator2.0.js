@@ -1,6 +1,5 @@
 let numberLeft;
 let numberRight;
-let operator;
 
 const sum = () => {
     let numberLeft = document.getElementById('left');
