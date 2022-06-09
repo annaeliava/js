@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculator3.0.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc" id="num">
+        <form class="calc" id="formCalc">
+            <input 
+                type="text" 
+                name="calculator" 
+                class="numberInput" 
+                id="firstNum">
+            <div class="calc" id="operators">
+                <input
+                    type="radio"
+                    name="operator" 
+                    class="item"
+                    id="plus"
+                    value="plus">
+                <label>+</label>
+                <input
+                    type="radio"
+                    name="operator" 
+                    class="item"
+                    id="minus"
+                    value="minus">
+                <label>-</label>
+                <input
+                    type="radio"
+                    name="operator" 
+                    class="item"
+                    id="multiply"
+                    value="multiply">
+                <label>&times;</label>
+                <input
+                    type="radio"
+                    name="operator" 
+                    class="item"
+                    id="divide"
+                    value="divide">
+                <label>&divide;</label>
+            </div>
+            <input 
+                type="text" 
+                name="calculator" 
+                class="numberInput" 
+                id="secondNum">
+            <div>
+                <div class="button" id="equals" onclick="equals()">=</div>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/calculator3.0.js"></script>
+</body>
+</html>
