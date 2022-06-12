@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+</head>
+<body>
+    <h1>Анкета для обладателей котиков</h1>
+    <form>
+        <div>
+            <label for="name">Кличка питомца:</label>
+            <input type="text" id="name" required /> 
+        </div>
+        <fieldset>
+            <legend>Владелец</legend>
+            <div>
+            <label for="firstname">Имя владельца:</label>
+            <input type="text" id="firstname" required /></div>
+            <div>
+            <label for="phone">Контакты владельца:</label>
+            <input type="tel" id="phone" pattern="[0-9]{1}[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required /></div>
+        </fieldset>
+        <p>Порода питомца:</p>
+        <select required>
+            <option value="britishshorthair">Британская короткошерстная кошка</option>
+            <option value="siamesecat">Сиамская кошка</option>
+            <option value="americanshorthair">Американская короткошерстная кошка</option>
+            <option value="persiancat">Персидская кошка</option>
+            <option value="bombaycat">Бомбейская кошка</option>
+            <option value="himalayan">Гималайская кошка</option>
+            <option value="scottishfold">Шотландская вислоухая кошка</option>
+        </select>
+        <div>
+            <p>Чем питается ваш питомец:</p>
+            <input type="checkbox" name="food" value="1" id="firstoption" /> 
+            Сухой корм <br/>
+            <input type="checkbox" name="food" value="2" id="secondoption" /> 
+            Влажный корм <br/>
+            <input type="checkbox" name="food" value="3" id="thirdoption" /> 
+            Натуральный корм <br/>
+        </div>
+        <div>
+            <p>Пол вашего питомца:</p> 
+            <input type="radio" name="sex" value="m" id="male" />Самец <br />
+            <input type="radio" name="sex" value="f" id="female" />Самка 
+        </div>
+        <br/><div>Ваш комментарий:</div>
+        <textarea rows="5" cols="40" id="comment" required></textarea>
+        <div>
+            <div>Приложите фото питомца</div> 
+            <input type="file" id="photo" />
+        </div>
+        <button>Сохранить</button>
+    </form>
+</body>
+</html>
