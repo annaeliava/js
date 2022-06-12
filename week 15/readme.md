@@ -67,19 +67,19 @@ hello.onclick = hello;
 ```html
 <body>
   <input id="elem" type="button" value="Click me!">
-</body>
 
-<script>
-  function handler1() {
-    alert('Thank you');
-  };
-  function handler2() {
-    alert('Thank you again');
-  }
-  elem.onclick = () => alert ("Hello");
-  elem.addEventListener("click", handler1);
-  elem.addEventListener("click", handler2); //самый универсальный, так как есть события, которые можно назначить только через addEventListener
-</script> 
+  <script>
+    function handler1() {
+      alert('Thank you');
+    };
+    function handler2() {
+      alert('Thank you again');
+    }
+    elem.onclick = () => alert ("Hello");
+    elem.addEventListener("click", handler1);
+    elem.addEventListener("click", handler2); //самый универсальный, так как есть события, которые можно назначить только через addEventListener
+  </script> 
+</body>
 ```
 ***
 6. Корректна ли такая запись? `button.onclick = hello();`
