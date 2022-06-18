@@ -11,7 +11,7 @@
 3. Что такое конструктор? Самостоятельно изучите и напишите, какие бывают виды конструкторов.
 4. Что выведет код? Почему именно так? 
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/99f30086-db49-4cdf-9cfc-a0b0d4bcba0e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/99f30086-db49-4cdf-9cfc-a0b0d4bcba0e/Untitled.png)
+    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F99f30086-db49-4cdf-9cfc-a0b0d4bcba0e%2FUntitled.png?table=block&id=c44409c9-82e1-413c-b8bd-09bc3fa9d686&spaceId=f098cfa4-dc31-41b0-a467-db910d3cff90&width=2000&userId=&cache=v2">
     
 5. Чем статические свойства и методы отличаются от нестатических? В каких ситуациях они применяются?
 6. Самостоятельно изучите, что такое геттеры и сеттеры, приведите пример класса с их использованием.
