@@ -17,8 +17,8 @@
 6. Самостоятельно изучите, что такое геттеры и сеттеры, приведите пример класса с их использованием.
 7. Что выведет код? Почему именно так?
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/278f7897-a155-4744-91f1-d123ad875879/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/278f7897-a155-4744-91f1-d123ad875879/Untitled.png)
+    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F278f7897-a155-4744-91f1-d123ad875879%2FUntitled.png?table=block&id=670a0ea3-bf63-490a-b6b0-9de488d2033e&spaceId=f098cfa4-dc31-41b0-a467-db910d3cff90&width=2000&userId=&cache=v2">
     
 8.  Что выведет код? Почему именно так?
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ec85e3b-4370-424e-b529-4e59754f4735/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ec85e3b-4370-424e-b529-4e59754f4735/Untitled.png)
+    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5ec85e3b-4370-424e-b529-4e59754f4735%2FUntitled.png?table=block&id=0d54cb73-06c2-4afb-a5e7-0d94bf5eedc2&spaceId=f098cfa4-dc31-41b0-a467-db910d3cff90&width=2000&userId=&cache=v2">
