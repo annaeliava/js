@@ -30,17 +30,12 @@ body{
 .slider__container{
     display: flex;
     justify-content: center;
+    align-content: center;
     padding: 50px;
 }
 
 img{
-    /*position: relative;*/
     width: 80%;
-    display: none;
-}
-
-.slider__container img:nth-child(1){
-    display: block;
 }
 
 .prev, .next{
