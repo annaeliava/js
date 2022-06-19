@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EBEE;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #4267B2;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 15%;
+}
+
+.logInContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.logInForm {
+    margin-top: 20px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logIn {
+    display: grid;
+    grid-template-columns: 200px 200px auto;
+    gap: 15px;
+    color: white;
+}
+
+#emailCurrent, #passwordCurrent {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 20px;
+}
+
+#logInSmall {
+    color: #E9EBEE;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
+main {
+    margin: auto 80px auto 80px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 150px;
+}
+
+.signUp {
+    display: grid;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#signUpBirthday {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#signUpNamePosition {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+#signUpNumEmail, #signUpPassword {
+    width: 100%;
+}
+
+#signUpName, #signUpSurname, #signUpNumEmail, #signUpPassword, #signUpDay, #signUpMonth, #signUpYear {
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.signUpBirthdayContainer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+#signUpSmall {
+    margin-left: 10px;
+    padding-top: 8px;
+    color: #4267B2;
+}
+
+input::placeholder {
+    color:#90949C;
+}
+
+button {
+    cursor: pointer;
+}
+
+#createAccount {
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #4267B2;
+    border-radius: 5px;
+    color: white;
+}
+
+#submitBtn {
+    margin-top: 20px;
+    padding-top: 1px;
+    width: 50px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #4267B2;
+    color: white;
+}
+
+#error {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
