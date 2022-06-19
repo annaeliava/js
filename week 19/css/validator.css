@@ -1,0 +1,38 @@
+body{
+    margin: 50px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+} 
+
+label{
+    margin-top: 15px;;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input{
+    height: 25px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#btnSubmit {
+    margin-top: 20px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color:navy;
+    cursor: pointer;
+}
+
+#divBtn {
+    display: flex;
+    justify-content: end;
+}
