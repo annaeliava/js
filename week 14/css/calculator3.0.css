@@ -41,9 +41,14 @@ label {
     border: none;
     background-color: transparent;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
-.numberInput, #equals, #calcResult {
+#delete{
+    cursor: pointer;
+}
+
+.numberInput, #equals, #calcResult, #delete {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     color: whitesmoke;
@@ -52,6 +57,7 @@ label {
 #calcResult {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     width: 500px;
     height: 80px;
 }

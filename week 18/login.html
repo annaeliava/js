@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/week 15/css/login.css">
+    <link rel="shorticon" href="/week 15/img/facebook.svg">
+    <title>Facebook</title>
+</head>
+<body>
+    <header>
+        <div class="logInContainer">
+            <img src="/week 15/img/pngfind.com-find-us-on-facebook-2211195.png" alt="facebook-logo" id="logo">
+            <form class="logInForm">
+                <div class="logIn">
+                    <div class="logInElements">
+                        <label for="emailCurrent">Эл. адрес или телефон</label>
+                        <input type="email" name="logInInput" id="emailCurrent">
+                    </div>
+                    <div class="logInElements">
+                        <label for="passwordCurrent">Пароль</label>
+                        <input type="password" name="logInInput" id="passwordCurrent">
+                        <small id="logInSmall">Забыли аккаунт?</small>
+                    </div>
+                    <div class="logInElements">
+                        <button type="submit" id="submitBtn">Вход</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="sectionPrevious">
+            <h1 class="title">Недавние входы</h1>
+            <div>Нажмите на изображение или добавьте аккаунт.</div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="sectionCreate">
+            <h1 class="title">Создать новый аккаунт</h1>
+            <form class="signUpForm">
+                <div class="signUp">
+                    <div class="signUpElements" id="signUpNamePosition">
+                        <input type="text" name="signUpInput" placeholder="Имя" id="signUpName">
+                        <input type="text" name="signUpInput" placeholder="Фамилия" id="signUpSurname">
+                    </div>
+                    <div class="signUpElements" id="signUpNumEmailPosition">
+                        <input type="text" name="signUpInput" placeholder="Номер мобильного телефона или эл. адрес" id="signUpNumEmail">
+                    </div>
+                    <div class="signUpElements" id="signUpPasswordPosition">
+                        <input type="password" name="signUpInput" placeholder="Новый пароль" id="signUpPassword">
+                    </div>
+                    <div class="signUpElements" id="signUpBirthdayPosition">
+                        <div id="signUpBirthday">Дата рождения</div>
+                        <div class="signUpBirthdayContainer">
+                            <input type="number" name ="signUpInput" id="signUpDay">
+                            <select name="signUpInput" id="signUpMonth">
+                                <option value="jan">января</option>
+                                <option value="feb">февраля</option>
+                                <option value="march">марта</option>
+                                <option value="april">апреля</option>
+                                <option value="may">мая</option>
+                                <option value="june">июня</option>
+                                <option value="july">июля</option>
+                                <option value="aug">августа</option>
+                                <option value="sept">сентября</option>
+                                <option value="oct">октября</option>
+                                <option value="nov">ноября</option>
+                                <option value="dec">декабря</option>
+                            </select>
+                            <input type="number" name="signUpInput" id="signUpYear">
+                            <small id="signUpSmall">Зачем указывать дату рождения?</small>
+                        </div>
+                    </div>
+                    <div class="signUpElements" id="signUpSex">
+                        <input type="radio" name="signUpInput" id="signUpFemale">
+                        <label for="">Женщина</label>
+                        <input type="radio" name="signUpInput" id="signUpMale">
+                        <label for="">Мужчина</label>
+                    </div>
+                    <div class="signUpElements" id="signUpCreate">
+                        <button type="submit" id="createAccount" onclick="check()">Создать аккаунт</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="/week 15/js/login.js"></script>
+</body>
+</html>
