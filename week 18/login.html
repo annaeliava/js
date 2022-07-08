@@ -44,14 +44,14 @@
             <form class="signUpForm">
                 <div class="signUp">
                     <div class="signUpElements" id="signUpNamePosition">
-                        <input type="text" name="signUpInput" placeholder="Имя" id="signUpName">
-                        <input type="text" name="signUpInput" placeholder="Фамилия" id="signUpSurname">
+                        <input type="text" name="signUpInput" placeholder="Имя" id="signUpName" required>
+                        <input type="text" name="signUpInput" placeholder="Фамилия" id="signUpSurname" required>
                     </div>
                     <div class="signUpElements" id="signUpNumEmailPosition">
-                        <input type="text" name="signUpInput" placeholder="Номер мобильного телефона или эл. адрес" id="signUpNumEmail">
+                        <input type="text" name="signUpInput" placeholder="Номер мобильного телефона или эл. адрес" id="signUpNumEmail" pattern="/^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/ && /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i" required>
                     </div>
                     <div class="signUpElements" id="signUpPasswordPosition">
-                        <input type="password" name="signUpInput" placeholder="Новый пароль" id="signUpPassword">
+                        <input type="password" name="signUpInput" placeholder="Новый пароль" id="signUpPassword"  pattern=" /^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/" required>
                     </div>
                     <div class="signUpElements" id="signUpBirthdayPosition">
                         <div id="signUpBirthday">Дата рождения</div>
