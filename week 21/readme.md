@@ -65,7 +65,7 @@
 ```js
 function test(){
     let info = document.getElementById("petSearch").value
-    fetch("httpss://localhost/pets/add" + info)
+    fetch("/localhost/pets/add" + info)
         .then(response => response.json())
         .then(result => {
             document.getElementById("pet").innerText = pets.breed;
