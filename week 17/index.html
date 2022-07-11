@@ -5,13 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            margin: 50px;
+            font-size: 20px;
+        }
+
+        form {
+            margin-bottom: 10px;
+        }
+
+        #answer{
+            font-size: 20px;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
     <form>
-        <label for="">
-            <input type="text" name="" id="">
+        <label for="answer">
+            <input type="text" name="snp" id="answer">
         </label>
+        <button onclick="whatsUrName()">Send</button>
     </form>
+    <div>Фамилия:
+        <span class="nameSections" id="surname"></span>
+    </div>
+    <div>Имя:
+        <span class="nameSections" id="name"></span>
+    </div>
+    <div>Отчество:
+        <span class="nameSections" id="paternalName"></span>
+    </div>
 
     <script src="js/index.js"></script>
 </body>
