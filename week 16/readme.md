@@ -78,3 +78,44 @@ for (let i = 2; i <= 10; i++) {
 12. Как можно принудительно остановить выполнение цикла?
 
 Ответ: можно принудительно остановить выполнение цикла с помощью директива `break`. Он прервает цикл. Но также можно использовать другой директив `continue`, но он не прерывает, а переходит к следующему условию, которое == true. И break, и continue нельзя ставиьт спрва от тернарного оператора ?:
+
+<b>Задачи:</b>
+
+1. Дано: ['js', 'css', 'html']. Выведите на экран первый элемент.
+
+Ответ:
+```js
+let items = ['js', 'css', 'html'];
+alert(items[0]);
+```
+***  
+2. Отфильтруйте массив [0,1,false,2,undefined,'',3,null] (с помощью метода filter). Ожидаемый результат: [1,2,3].
+
+Ответ:
+```js
+let items = [0,1,false,2,undefined,'',3,null];
+console.log(items.filter(Number)); 
+```
+```js
+let items = [0,1,false,2,undefined,'',3,null];
+let result = items.filter(item => item >= 1);
+console.log(result); 
+```
+```js
+let items = [0,1,false,2,undefined,'',3,null];
+let result = items.filter(item => typeof item === "number" && item >0);
+console.log(result); 
+```
+***
+3. Дан массив [[1,2], [1,2,3], [1,2,3,4]]. Найдите индекс массива, длина которого >3.
+
+Ответ:
+```js
+let items = [[1,2], [1,2,3], [1,2,3,4]];
+  for (item of items){
+    if(item.length>3){
+      console.log(item);
+    }
+  }
+```
+
