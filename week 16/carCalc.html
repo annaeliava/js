@@ -11,16 +11,27 @@
     <form class="form" id="carCalForm">
         <div class="container">
             <h1>Калькулятор стоимости автомобиля</h1>
-            <label for="">Цена на аукционе</label>
-            <input type="text" name="" id="">
-            <label for=""></label>
-            <select name="" id="">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+            <select class="car" id="carBrand">
+                <option value="" selected disabled hidden>Марка</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Tesla">Tesla</option>
+                <option value="BMW">BMW</option>
+                <option value="Toyota">Toyota</option>
             </select>
-
+            <select class="car" id="carModel" disabled>
+                <option value="" selected disabled hidden>Модель</option>
+            </select>
+            <select class="car" id="carYear" disabled>
+                <option value="" selected disabled hidden>Год выпуска</option>
+            </select>
+            <select class="car" id="carEquipment" disabled>
+                <option value="" selected disabled hidden>Уровень оснащения</option>
+                <option value="basic">Базовая</option>
+                <option value="middle">Средняя</option>
+                <option value="max">Максимальная</option>
+            </select>
+            <button id="calcCar">Оценить</button>
+            <div id="result"></div>
         </div>
     </form>
     <script src="js/carCalc.js"></script>
