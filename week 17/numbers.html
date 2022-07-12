@@ -11,22 +11,20 @@
         }
 
         .result{
+            margin-top: 10px;
+            margin-bottom: 10px;
             font-weight: bold;
         }
     </style>
 </head>
-<body> 
-    <div class="result" id="randomNumbers"></div>
-    <div class="title">Минимальное:</div>
-    <div class="result" id="min"></div>
-    <div class="title">Максимальное:</div>
-    <div class="result" id="max"></div>
-    <div class="title">Среднее арифметическое:</div>
-    <div class="result" id="average"></div>
-    <div class="title">Сумма чисел:</div>
-    <div class="result" id="total"></div>
-    <div class="title">Произведение чисел:</div>
-    <div class="result" id="last"></div>
+<body>
+    <button id="btn" onclick="numGenerator()">Сгенерировать</button>
+    <div class="result" id="numbers"></div>
+    <div class="title" id="min">Минимальное:</div>
+    <div class="title" id="max">Максимальное:</div>
+    <div class="title" id="average">Среднее арифметическое:</div>
+    <div class="title" id="sum">Сумма чисел:</div>
+    <div class="title" id="mult">Произведение чисел:</div>
 
     <script src="js/numbers.js"></script>
 </body>
